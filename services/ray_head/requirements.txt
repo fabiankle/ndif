@@ -1,0 +1,7 @@
+setuptools
+git+https://github.com/ndif-team/nnsight@dev
+ray[serve]
+python-slugify
+prometheus_client
+python-logging-loki
+minio

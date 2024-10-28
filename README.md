@@ -12,19 +12,6 @@ This guide explains how to set up a development environment, install dependencie
 
 ## Setup
 
-### 1. Install Conda
-
-If you haven't already, install Conda by downloading and installing Anaconda or Miniconda from the [official Conda website](https://docs.conda.io/en/latest/miniconda.html).
-
-### 2. Create Conda Environment
-
-Fork or clone the `NDIF` repository to your local machine. Then create a new Conda virtual environment:
-
-```sh
-conda create -n ndif-dev python=3.10
-conda activate ndif-dev
-```
-
 ### 3. Install NNsight 
 
 Choose one of the following methods:

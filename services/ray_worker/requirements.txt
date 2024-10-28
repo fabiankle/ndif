@@ -1,0 +1,6 @@
+setuptools
+git+https://github.com/ndif-team/nnsight@dev
+ray[serve]
+prometheus_client
+python-logging-loki
+minio

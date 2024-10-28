@@ -11,5 +11,6 @@ RUN tar -xvf ./src.tar.gz\
 
 SHELL ["/bin/bash", "-c"]
 
-CMD source activate service && bash ./start.sh
+#CMD source activate service && bash ./start.sh
+CMD bash ./start.sh
 
