@@ -1,6 +1,6 @@
 #!/bin/bash
 
-resources=`python -m src.ray.resources --head`
+resources=$(python3 -m src.ray.resources --head)
 
 ray start --head \
     --resources="$resources" \
